@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WET – Will Eat That! Coming soon</title>
+<meta name="description" content="WET – Will Eat That! Sweet to eat. Sexy to wear. Coming soon. 18+ only.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{--pink:#FF3D81;--ink:#1A0F1C;--cream:#FFF1EA;--peach:#FFB8A8}
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{min-height:100vh;background:var(--pink);color:var(--ink);font-family:'DM Sans',system-ui,sans-serif;display:flex;flex-direction:column}
+  header,footer{padding:20px 16px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;max-width:1100px;width:100%;margin:0 auto}
+  .badge{font-weight:700;font-size:14px;border:2px solid var(--ink);border-radius:999px;padding:4px 14px}
+  main{flex:1;display:flex;align-items:center;justify-content:center;padding:24px 16px}
+  .wrap{max-width:1100px;width:100%;display:flex;flex-wrap:wrap;gap:40px;align-items:center;justify-content:center}
+  .copy{flex:999 1 420px;min-width:0;display:flex;flex-direction:column;gap:22px}
+  .logo{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:clamp(88px,20vw,200px);line-height:.85;letter-spacing:-.03em;margin:0}
+  .tag{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:clamp(22px,4vw,34px);margin:0}
+  p{margin:0;font-size:19px;line-height:1.45;max-width:520px}
+  form{display:flex;flex-wrap:wrap;gap:12px;max-width:520px}
+  label{position:absolute;left:-9999px}
+  input[type=email]{flex:1 1 220px;min-width:0;min-height:52px;border:0;border-radius:999px;padding:0 22px;font-size:16px;font-family:inherit}
+  button{min-height:52px;border:0;border-radius:999px;background:var(--ink);color:var(--cream);font-weight:700;font-size:16px;padding:0 30px;font-family:inherit;cursor:pointer}
+  button:hover{background:#3A2040}
+  .note{font-size:14px}
+  .art{flex:1 1 260px;max-width:380px;aspect-ratio:1/1;background:var(--cream);border-radius:36px;display:flex;align-items:center;justify-content:center}
+  .art svg{width:76%;height:76%}
+  footer{font-size:14px}
+  a{color:var(--ink);font-weight:700}
+</style>
+</head>
+<body>
+<header>
+  <div style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:22px;letter-spacing:.04em">WET</div>
+  <div class="badge">18+ only</div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="copy">
+      <h1 class="logo"><svg viewBox="0 0 650 300" role="img" aria-label="WET" style="width:min(100%,540px);height:auto;display:block"><g fill="none" stroke="#1A0F1C" stroke-width="44" stroke-linecap="round" stroke-linejoin="round"><polyline points="40,50 100,190 150,90 200,190 260,50"/><path d="M330 50V190M330 50H430M330 120H415M330 190H430"/><path d="M490 50H610M550 50V190"/></g><g stroke="#1A0F1C" stroke-width="14" stroke-linecap="round"><path d="M100 205V250M200 205V232M405 205V262M550 205V240M505 65V125"/></g><g fill="#1A0F1C"><circle cx="100" cy="258" r="13"/><circle cx="200" cy="240" r="11"/><circle cx="405" cy="270" r="13"/><circle cx="550" cy="248" r="12"/><circle cx="505" cy="133" r="12"/></g><g fill="none" stroke="#FFF1EA" stroke-width="7" stroke-linecap="round" opacity="0.85"><path d="M41.6 74L53.6 102M322 72V104M348 40H392M348 180H392M515 40H565"/></g><g fill="#FFF1EA" opacity="0.9"><circle cx="95" cy="254" r="3.5"/><circle cx="195" cy="236" r="3"/><circle cx="400" cy="266" r="3.5"/><circle cx="545" cy="244" r="3.5"/><circle cx="500" cy="129" r="3.5"/></g></svg></h1>
+      <p class="tag">Will Eat That!</p>
+      <p>Sweet to eat. Sexy to wear. The first drop is coming soon. Leave your email to get in first.</p>
+
+      <!-- FORM SETUP: create a free form at formspree.io, then replace YOUR_FORM_ID below -->
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="Your email" required>
+        <button type="submit">Notify me</button>
+      </form>
+      <p class="note">By signing up you confirm you are 18 or older. No spam, one email when we launch.</p>
+    </div>
+
+    <div class="art" aria-hidden="true">
+      <div style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:72px;line-height:1;text-align:center;color:#1A0F1C">Drop<br>01</div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div>&copy; WET &ndash; Will Eat That! All rights reserved.</div>
+  <div>Follow: <a href="#">[INSTAGRAM]</a> &middot; <a href="#">[TIKTOK]</a></div>
+</footer>
+</body>
+</html>
